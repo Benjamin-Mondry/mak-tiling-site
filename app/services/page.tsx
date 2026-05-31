@@ -34,7 +34,7 @@ export default function ServicesPage() {
           {serviceShowcase.items.map((item) => (
             <figure className="page-visual-card" key={item.title}>
               <div className="page-visual-image">
-                <Image src={item.image} alt={item.alt} fill sizes="(max-width: 960px) 100vw, 33vw" />
+                <Image src={item.image} alt={item.alt} fill sizes="(max-width: 960px) 100vw, 33vw" quality={60} />
               </div>
               <figcaption>
                 <span>{item.category}</span>

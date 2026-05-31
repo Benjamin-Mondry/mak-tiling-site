@@ -64,6 +64,7 @@ const structuredData = {
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
+  applicationName: 'MAK Tiling',
   title: {
     default: 'MAK Tiling | Melbourne VIC Tiling Business',
     template: '%s | MAK Tiling',
@@ -74,6 +75,7 @@ export const metadata: Metadata = {
     apple: '/icon.png',
   },
   description: siteMeta.description,
+  category: 'construction',
   keywords: [
     'tiler Melbourne',
     'Melbourne tiling business',
@@ -82,6 +84,7 @@ export const metadata: Metadata = {
     'large format tiling Melbourne',
     'on-site tiler Melbourne',
   ],
+  authors: [{ name: 'MAK Tiling' }],
   alternates: {
     canonical: '/',
   },

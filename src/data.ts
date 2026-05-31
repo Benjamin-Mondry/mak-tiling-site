@@ -1,11 +1,11 @@
 import type { StaticImageData } from 'next/image'
 
-import logo from './assets/mak-gallery/logo.jpg'
-import exteriorHero from './assets/mak-gallery/IMG_0104.jpg'
-import exteriorWide from './assets/mak-gallery/IMG_0102.jpg'
-import exteriorDetail from './assets/mak-gallery/IMG_0106.jpg'
-import mosaicFeature from './assets/mak-gallery/IMG_0096.jpg'
-import showerBench from './assets/mak-gallery/IMG_0153.jpg'
+import logo from './assets/mak-gallery/mak-tiling-logo.jpg'
+import exteriorHero from './assets/mak-gallery/melbourne-tiling-exterior-herringbone-facade.jpg'
+import exteriorWide from './assets/mak-gallery/melbourne-tiling-facade-perspective.jpg'
+import exteriorDetail from './assets/mak-gallery/melbourne-tiling-facade-detail.jpg'
+import mosaicFeature from './assets/mak-gallery/melbourne-tiling-penny-round-feature-wall.jpg'
+import showerBench from './assets/mak-gallery/melbourne-tiling-large-format-shower.jpg'
 
 export type NavLink = {
   label: string
@@ -119,85 +119,85 @@ export const galleryItems: GalleryItem[] = [
   {
     title: 'Charcoal Exterior Cladding',
     category: 'Architectural exterior tiling',
-    image: '/gallery/IMG_0366.HEIC.jpg',
+    image: '/gallery/melbourne-tiling-charcoal-exterior-cladding.jpg',
     alt: 'Dark charcoal large-format cladding wrapped around an exterior corner on a residential build.',
   },
   {
     title: 'Textured Wall Niche',
     category: 'Bathroom feature detail',
-    image: '/gallery/IMG_0543.HEIC.jpg',
+    image: '/gallery/melbourne-tiling-textured-wall-niche.jpg',
     alt: 'White textured wall tiles with an inset niche detail.',
   },
   {
     title: 'Vertical Finger Tile Bathroom',
     category: 'Precision bathroom finish',
-    image: '/gallery/IMG_3470.HEIC.jpg',
+    image: '/gallery/melbourne-tiling-vertical-finger-tile-bathroom.jpg',
     alt: 'Bathroom with large-format light floor tiles and narrow vertical wall tiles in the shower zone.',
   },
   {
     title: 'Freestanding Bath Wet Area',
     category: 'Premium bathroom installation',
-    image: '/gallery/IMG_2740.HEIC.jpg',
+    image: '/gallery/melbourne-tiling-freestanding-bath-wet-area.jpg',
     alt: 'Bathroom with a freestanding bath, twin shower layout, and vertically stacked wall tiles.',
   },
   {
     title: 'Terrazzo Shower Room',
     category: 'Feature material pairing',
-    image: '/gallery/IMG_3141.HEIC.jpg',
+    image: '/gallery/melbourne-tiling-terrazzo-shower-room.jpg',
     alt: 'Bathroom with terrazzo floor and wall finishes framed by green tiles around a window.',
   },
   {
     title: 'Stone Stair Feature Wall',
     category: 'Interior statement tilework',
-    image: '/gallery/IMG_3360.HEIC.jpg',
+    image: '/gallery/melbourne-tiling-stone-stair-feature-wall.jpg',
     alt: 'Floating timber staircase set against a full-height grey stone-look tiled feature wall.',
   },
   {
     title: 'Linear Brick Exterior',
     category: 'Exterior tilework',
-    image: '/gallery/IMG_3534.HEIC.jpg',
+    image: '/gallery/melbourne-tiling-linear-brick-exterior.jpg',
     alt: 'Exterior wall finished in slim horizontal light-toned brick-style tiles.',
   },
   {
     title: 'Fireplace Hearth Detail',
     category: 'Custom interior feature',
-    image: '/gallery/IMG_2108.HEIC.jpg',
+    image: '/gallery/melbourne-tiling-fireplace-hearth-detail.jpg',
     alt: 'Fireplace base detailed with black irregular-cut stone tiles.',
   },
   {
     title: 'Soft Grey Bathroom',
     category: 'Bathroom renovation finish',
-    image: '/gallery/IMG_2036.HEIC.jpg',
+    image: '/gallery/melbourne-tiling-soft-grey-bathroom.jpg',
     alt: 'Soft grey bathroom with large-format tiles and a mosaic feature wall inside the shower zone.',
   },
   {
     title: 'Curved Kitchen Island Tiling',
     category: 'Kitchen feature detail',
-    image: '/gallery/IMG_3856.HEIC.jpg',
+    image: '/gallery/melbourne-tiling-curved-kitchen-island.jpg',
     alt: 'Kitchen with a curved island clad in narrow vertical feature tiles.',
   },
   {
     title: 'Mosaic Bath Nook',
     category: 'Luxury wet area detail',
-    image: '/gallery/IMG_3374.HEIC.jpg',
+    image: '/gallery/melbourne-tiling-mosaic-bath-nook.jpg',
     alt: 'Freestanding bath set in front of a dark mosaic feature wall under a skylight.',
   },
   {
     title: 'Scallop Vanity Wall',
     category: 'Decorative wall tiling',
-    image: '/gallery/IMG_3122.HEIC.jpg',
+    image: '/gallery/melbourne-tiling-scallop-vanity-wall.jpg',
     alt: 'Vanity wall finished with white scallop-pattern feature tiles around two windows.',
   },
   {
     title: 'Grid Tile Shower',
     category: 'Clean bathroom set-out',
-    image: '/gallery/IMG_3524.HEIC.jpg',
+    image: '/gallery/melbourne-tiling-grid-tile-shower.jpg',
     alt: 'Shower with square light tiles wrapping walls, seat, and return corners.',
   },
   {
     title: 'Terrazzo Partition Shower',
     category: 'Custom shower detail',
-    image: '/gallery/IMG_2794.HEIC.jpg',
+    image: '/gallery/melbourne-tiling-terrazzo-partition-shower.jpg',
     alt: 'Shower with white floor mosaics and a terrazzo partition wall with a built-in niche.',
   },
 ]

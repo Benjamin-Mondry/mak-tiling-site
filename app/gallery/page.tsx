@@ -25,7 +25,7 @@ export default function GalleryPage() {
         {galleryItems.map((item, index) => (
           <figure className={`gallery-card ${index === 0 ? 'gallery-card-featured' : ''}`} key={item.title}>
             <div className="gallery-image-shell">
-              <Image src={item.image} alt={item.alt} fill sizes="(max-width: 960px) 100vw, 33vw" />
+              <Image src={item.image} alt={item.alt} fill sizes="(max-width: 960px) 100vw, 33vw" quality={60} />
             </div>
             <figcaption>
               <span>{item.category}</span>

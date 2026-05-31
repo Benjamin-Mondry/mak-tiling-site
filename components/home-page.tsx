@@ -115,7 +115,7 @@ export function HomePage() {
         <div className="home-links-grid">
           {galleryItems.slice(0, 2).map((item) => (
             <figure className="home-feature-card" key={item.title}>
-              <Image src={item.image} alt={item.alt} fill sizes="(max-width: 960px) 100vw, 33vw" />
+              <Image src={item.image} alt={item.alt} fill sizes="(max-width: 960px) 100vw, 33vw" quality={60} />
             </figure>
           ))}
 
