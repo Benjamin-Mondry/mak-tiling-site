@@ -60,7 +60,7 @@ export function HomePage() {
         <div className="home-slider-inner">
           <div className="home-slider-card">
             <p className="eyebrow">Melbourne, VIC</p>
-            <h1>High-quality tiling for Australians.</h1>
+            <h1>High-quality tiling for Melbourne homes.</h1>
             <p className="home-slider-caption">{slide.title}</p>
 
             <div className="home-slider-links" aria-label="Quick links">
