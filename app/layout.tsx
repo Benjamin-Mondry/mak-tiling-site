@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import type { ReactNode } from 'react'
 import Script from 'next/script'
+import { Analytics } from '@vercel/analytics/next'
 
 import { GoogleAnalytics } from '@/components/google-analytics'
 import { SiteFooter } from '@/components/site-footer'
@@ -132,6 +133,7 @@ export default function RootLayout({
           <main id="main-content">{children}</main>
           <SiteFooter />
         </div>
+        <Analytics />
       </body>
     </html>
   )
