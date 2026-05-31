@@ -44,7 +44,7 @@ const siteUrl = (process.env.NEXT_PUBLIC_SITE_URL ?? 'https://maktiling.com.au')
 
 export const siteMeta = {
   brand: 'MAK Tiling',
-  email: 'marildo@maktiling.com',
+  email: 'creepypeaker@gmail.com',
   phone: '+61 0452 647 544',
   location: 'Melbourne, VIC',
   model: 'On-site tiling business',
