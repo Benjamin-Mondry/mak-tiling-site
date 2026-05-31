@@ -1,0 +1,106 @@
+:root {
+  --color-background: #eef3f7;
+  --color-surface: #ffffff;
+  --color-heading: #15263f;
+  --color-text: #253954;
+  --color-muted: #4f647f;
+  --color-brand: #0f5fb3;
+  --color-brand-strong: #08396d;
+  --color-accent: #58a8ef;
+  --color-border: rgba(21, 38, 63, 0.14);
+  --shadow-soft: 0 18px 48px rgba(21, 38, 63, 0.1);
+  --font-body: 'Avenir Next', 'Trebuchet MS', 'Segoe UI', sans-serif;
+  --font-display: 'Iowan Old Style', 'Palatino Linotype', 'Book Antiqua', serif;
+
+  font-family: var(--font-body);
+  line-height: 1.6;
+  font-weight: 400;
+  color: var(--color-text);
+  background:
+    radial-gradient(circle at top left, rgba(88, 168, 239, 0.18), transparent 20rem),
+    linear-gradient(180deg, #f8fbfd 0%, var(--color-background) 100%);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.55), rgba(238, 243, 247, 0.95)),
+    repeating-linear-gradient(
+      90deg,
+      rgba(8, 57, 109, 0.03) 0,
+      rgba(8, 57, 109, 0.03) 1px,
+      transparent 1px,
+      transparent 120px
+    );
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background:
+    radial-gradient(circle at 85% 12%, rgba(15, 95, 179, 0.1), transparent 18rem),
+    radial-gradient(circle at 12% 30%, rgba(88, 168, 239, 0.1), transparent 16rem);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  font-family: var(--font-display);
+  line-height: 1.08;
+  color: var(--color-heading);
+}
+
+h1 {
+  font-size: clamp(2.6rem, 5vw, 5rem);
+}
+
+h2 {
+  font-size: clamp(2rem, 4vw, 3.3rem);
+}
+
+h3 {
+  font-size: clamp(1.2rem, 2vw, 1.45rem);
+}
+
+p {
+  margin: 0 0 1rem;
+}
+
+ul {
+  margin: 0;
+}
+
+:focus-visible {
+  outline: 3px solid var(--color-accent);
+  outline-offset: 3px;
+}
+
+#root {
+  isolation: isolate;
+}
