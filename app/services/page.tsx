@@ -6,7 +6,7 @@ import { serviceShowcase, services } from '@/src/data'
 export const metadata: Metadata = {
   title: 'Tiling Services In Melbourne VIC',
   description:
-    'Bathroom tiling, wet areas, feature walls, and large format tile installation for Melbourne VIC residential projects.',
+    'Screeding, waterproofing, caulking, ceramic tiling, porcelain tiling, stone tiling, and mosaic tiling services across Melbourne VIC.',
   alternates: {
     canonical: '/services',
   },
@@ -19,8 +19,8 @@ export default function ServicesPage() {
         <p className="eyebrow">Services</p>
         <h1>Tiling services across Melbourne, VIC.</h1>
         <p>
-          MAK Tiling is an on-site tiling business delivering clean, high-quality finishes for bathrooms, wet areas,
-          feature walls, and premium residential work.
+          MAK Tiling provides preparation and tile installation services across Melbourne, VIC with a focus on
+          quality workmanship, clean finishes, and detail-driven on-site work.
         </p>
       </div>
 

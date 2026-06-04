@@ -60,7 +60,7 @@ export function HomePage() {
         <div className="home-slider-inner">
           <div className="home-slider-card">
             <p className="eyebrow">Melbourne, VIC</p>
-            <h1>High-quality tiling for Melbourne homes.</h1>
+            <h1>High-quality tiling for Melbourne</h1>
             <p className="home-slider-caption">{slide.title}</p>
 
             <div className="home-slider-links" aria-label="Quick links">
@@ -105,10 +105,9 @@ export function HomePage() {
       <section className="home-links section">
         <div className="section-heading home-links-heading">
           <p className="eyebrow">MAK Tiling</p>
-          <h2>On-site tiling work across Melbourne, VIC.</h2>
+          <h2>Tiling work across Melbourne, VIC.</h2>
           <p>
-            A tiling business focused on residential quality, not a retail showroom. MAK Tiling works directly on site
-            and has delivered finishes on high-end builds, bathrooms, and detail-driven projects.
+            A tiling business focused on residential quality. Mak Tiling has delivered finishes on high-end builds, bathrooms, and detail-driven projects.
           </p>
         </div>
 
@@ -130,7 +129,7 @@ export function HomePage() {
             </Link>
             <Link className="home-link-row" href="/contact">
               <strong>Contact MAK Tiling</strong>
-              <span>Melbourne-based on-site tiling business for quality-driven work</span>
+              <span>Melbourne-based tiling business for quality-driven work</span>
             </Link>
           </div>
         </div>

@@ -40,7 +40,7 @@ export async function POST(request: Request) {
       },
       body: JSON.stringify({
         from: fromEmail,
-        to: [siteMeta.email],
+        to: [siteMeta.formRecipientEmail],
         reply_to: email,
         subject: `New quote request from ${name}`,
         text: [

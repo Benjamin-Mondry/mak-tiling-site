@@ -44,7 +44,8 @@ const siteUrl = (process.env.NEXT_PUBLIC_SITE_URL ?? 'https://maktiling.com.au')
 
 export const siteMeta = {
   brand: 'MAK Tiling',
-  email: 'benmondrywork@gmail.com',
+  email: 'marildo@maktiling.com',
+  formRecipientEmail: 'benmondrywork@gmail.com',
   phone: '+61 0452 647 544',
   location: 'Melbourne, VIC',
   model: 'On-site tiling business',
@@ -64,30 +65,50 @@ export const navLinks: NavLink[] = [
 
 export const services: Service[] = [
   {
-    title: 'Bathroom Tiling',
+    title: 'Screeding',
     description:
-      'Bathrooms, showers, powder rooms, and wet areas installed with clean set-outs, balanced joints, and sharp finishes.',
+      'Floor screeding to create a level, stable base before tile installation, with attention to falls, finish quality, and site conditions.',
   },
   {
-    title: 'Feature Walls',
+    title: 'Waterproofing',
     description:
-      'Statement tilework for splashbacks, facades, niches, and architectural details where layout and material choice matter.',
+      'Waterproofing for bathrooms, showers, laundries, and wet areas completed carefully to support long-term durability beneath the finished tilework.',
   },
   {
-    title: 'Large Format Tiles',
+    title: 'Caulking',
     description:
-      'Premium large-format installation for a calm, high-end finish with close attention to levels, lines, and transitions.',
+      'Neat caulking to movement joints, internal corners, and transitions for a clean finish that helps protect tiled areas over time.',
   },
   {
-    title: 'Residential Projects',
+    title: 'Ceramic Tiling',
     description:
-      'On-site tiling for custom homes and renovations across Melbourne, VIC with a focus on workmanship rather than volume.',
+      'Ceramic tile installation for walls and floors with careful set-out, balanced joints, and a tidy finished result suited to residential spaces.',
+  },
+  {
+    title: 'Porcelain Tiling',
+    description:
+      'Porcelain tiling for interiors and exteriors with close attention to layout, edge quality, and the heavier demands of denser tile products.',
+  },
+  {
+    title: 'Stone Tiling',
+    description:
+      'Stone tiling for premium spaces where natural variation, careful handling, and detail-focused installation matter from start to finish.',
+  },
+  {
+    title: 'Mosaic Tiling',
+    description:
+      'Mosaic tiling for feature areas, splashbacks, niches, and curved or detailed surfaces where precision and finish quality are especially important.',
+  },
+  {
+    title: 'Bathroom Renovations',
+    description:
+      'Bathroom renovation tiling work delivered with a focus on preparation, waterproofing, finish quality, and a clean end result across the full tiled space.',
   },
 ]
 
 export const galleryItems: GalleryItem[] = [
   {
-    title: 'Exterior Herringbone Facade',
+    title: 'Sandstone',
     category: 'Luxury exterior finish',
     image: exteriorHero,
     alt: 'Modern double-storey home with a light herringbone tiled facade and black framed windows.',
@@ -117,7 +138,7 @@ export const galleryItems: GalleryItem[] = [
     alt: 'Dark grey large-format tiled shower area with a built-in bench seat and floor falls to the drain.',
   },
   {
-    title: 'Charcoal Exterior Cladding',
+    title: 'Blue Stone',
     category: 'Architectural exterior tiling',
     image: '/gallery/melbourne-tiling-charcoal-exterior-cladding.jpg',
     alt: 'Dark charcoal large-format cladding wrapped around an exterior corner on a residential build.',
@@ -147,7 +168,7 @@ export const galleryItems: GalleryItem[] = [
     alt: 'Bathroom with terrazzo floor and wall finishes framed by green tiles around a window.',
   },
   {
-    title: 'Stone Stair Feature Wall',
+    title: 'Entry Stone Feature Wall',
     category: 'Interior statement tilework',
     image: '/gallery/melbourne-tiling-stone-stair-feature-wall.jpg',
     alt: 'Floating timber staircase set against a full-height grey stone-look tiled feature wall.',
